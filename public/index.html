@@ -7,9 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>md-prototipo</title>
         <link rel="stylesheet" href="angular-material/angular-material.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body ng-app="app" ng-cloak>
-        <div ng-controller="appController" >
+    <body ng-app="app" ng-cloak >
+
+        <div ng-controller="appController" layout-fill>
             
             <md-toolbar>
                 <div class="md-toolbar-tools">
@@ -31,9 +33,23 @@
                     </md-button>
                 </div>
             </md-toolbar>
+            
+            <div layout="row" layout-fill >
+                <div flex="30" layout="column" class="boxWithHeight" layout-padding>
+                    flex="30"
+                    <section flex="40">flex="40"</section>
+                    <section flex>flex</section>
+                </div>
+                <div flex layout="column" class="boxWithHeight"  layout-padding>
+                    flex
+                    <section flex="70">flex="70"</section>
+                    <section flex="20">flex="20"</section>
+                    <section flex >flex </section>
+                </div>
+            </div>
 
         </div>
-        
+
         <script src="angular/angular.js"></script>
         <script src="angular-aria/angular-aria.js"></script>
         <script src="angular-animate/angular-animate.js"></script>

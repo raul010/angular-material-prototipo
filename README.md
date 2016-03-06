@@ -66,11 +66,17 @@ npm start
 
 * Listening port 3000...
 ```
-## Step 3 - Theming
+## Step 3 - Tema
 
 `git checkout -f step-003` 
 
-```bash
-npm start
+`npm start`
+
+
+## Step 4 - Layout
+
+`git checkout -f step-004` 
+
+`npm start`
 
 

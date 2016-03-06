@@ -1,0 +1,35 @@
+body[ng-cloak] {
+  display:none;
+}
+div[flex="30"] {
+  background-color: #00BCD4;  
+}
+
+section[flex="40"] {
+  background-color: #3CAF50;
+}
+section[flex="70"] {
+  background-color: #1976D2;
+}
+section[flex="20"] {
+ background-color: #FFC107;
+}
+section[flex=""] {
+ background-color: #673ab7;
+}
+
+
+.boxWithHeight {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.a, section {
+  border: 5px solid rgba(85, 97, 85, 0.27);
+  margin: 5px;  
+}
+
+section {
+  background-color: #dedede;
+}
+
