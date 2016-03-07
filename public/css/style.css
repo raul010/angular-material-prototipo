@@ -1,6 +1,7 @@
 body[ng-cloak] {
-  display:none;
+    display:none;
 }
+
 div[flex="30"] {
   background-color: #00BCD4;  
 }

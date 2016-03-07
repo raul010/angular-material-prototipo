@@ -13,7 +13,7 @@
 
         <div ng-controller="appController" layout-fill>
             
-            <md-toolbar>
+            <md-toolbar >
                 <div class="md-toolbar-tools">
                     <md-button class="md-icon-button" aria-label="Settings">
                         <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
@@ -34,15 +34,15 @@
                 </div>
             </md-toolbar>
             
-            <div layout="row" layout-fill >
-                <div flex="30" layout="column" class="boxWithHeight" layout-padding>
+            <div layout="row"  layout-fill >
+                <div flex="30" layout="column" hide-xs class="boxWithHeight" layout-padding>
                     flex="30"
                     <section flex="40">flex="40"</section>
                     <section flex>flex</section>
                 </div>
                 <div flex layout="column" class="boxWithHeight"  layout-padding>
                     flex
-                    <section flex="70">flex="70"</section>
+                    <section flex="70" flex-xs="20" >flex="70"</section>
                     <section flex="20">flex="20"</section>
                     <section flex >flex </section>
                 </div>

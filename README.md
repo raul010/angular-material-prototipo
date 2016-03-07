@@ -79,4 +79,8 @@ npm start
 
 `npm start`
 
+## Step 5 - Resposividade
 
+`git checkout -f step-005`
+
+`npm start`
