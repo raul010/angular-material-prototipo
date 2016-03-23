@@ -2,6 +2,8 @@
 Descobrindo na prática porque desenvolvedores e clientes ficam mais felizes com
 Angular Material  ｡◕‿‿◕｡
 
+Sugiro continuar a leitura através desta [postagem](http://blog.melhore.me/2016/03/22/Angular-Material-Aprendendo-atraves-da-pratica) mais completa, sobre o projeto.
+
 ## Step 0 - Preparando ambiente
 
 Caso ainda não tenha o Node Package Manager instalado: <br />
